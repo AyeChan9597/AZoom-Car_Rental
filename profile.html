@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support - AZoom Car Rental</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="profile-page">
+    <!-- Header -->
+    <header>
+        <div class="title">
+            <a href='index.html'>AZoom Car Rental</a>
+          </div>
+          <nav class="nav-bar">
+            <ul>
+              <li><a href='index.html'>Home</a></li>
+              <li><a href='rentals.html'>Rentals</a></li>
+              <li><a href='about.html'>About Us</a></li>
+              <li><a href='faq.html'>FAQ</a></li>
+            </ul>
+          </nav>
+      <div id="account">
+        <ul>
+          <li>
+            <a href='login.html' id='login'><img
+                src="Image/login.png"
+                alt=""
+                id="login_icon"
+              />Login</a
+            >
+          </li>
+          <li>
+            <a href='register.html' id='register'><img
+                src="Image/register.png"
+                alt=""
+                id="register_icon"
+              />Register</a
+            >
+          </li>
+          <li>
+            <a href='profile.html' id='profile'><img
+                src="Image/"
+                alt=""
+                id="register_icon"
+              />Profile</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="profile">
+        <div class="profile-container">
+          <img src="Image/user.png" alt="" />
+          <h1>Profile</h1>
+          <div id="profile-info"></div>
+          <button id="logout-btn">Log Out</button>
+        </div>
+        <h3 class="profile-title">Your Bookings</h3>
+        <div id="bookings"></div>
+      </div>
+
+      <footer>
+        <div class="footer-row">
+          <div class="footer-col">
+            <h4>Info</h4>
+            <ul class="links">
+              <li><a href='about.html'>About Us</a></li>
+              <li><a href='rentals.html'>Cars</a></li>
+              <li><a href='faq.html'>FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul class="contact-info">
+              <li>Phone Number: +65-8966871</li>
+              <li>Email: azoom@gmail.com</li>
+              <li>Location: Alexandra Road</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>
+              Subscribe to our newsletter for a weekly dose of news, updates,
+              helpful tips, and exclusive offers.
+            </p>
+            <form id="subscribe-form">
+              <input type="text" name="subscribeEmail" placeholder="Your email" required />
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+            <div class="icons">
+              <img src="Image/telegram.png" alt="" />
+              <img src="Image/facebook.png" alt="" />
+              <img src="Image/instagram.png" alt="" />
+              <img src="Image/google.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>

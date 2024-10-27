@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AZoom Car Rental</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="title">
+        <a href='index.html'>AZoom Car Rental</a>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href='index.html'>Home</a></li>
+          <li><a href='rentals.html'>Rentals</a></li>
+          <li><a href='about.html'>About Us</a></li>
+          <li><a href='faq.html'>FAQ</a></li>
+        </ul>
+      </nav>
+      <div id="account">
+        <ul>
+          <li>
+            <a href='login.html' id='login'><img
+                src="Image/login.png"
+                alt=""
+                id="login_icon"/>Login</a>
+          </li>
+          <li>
+            <a href='register.html' id='register'><img
+                src="Image/register.png"
+                alt=""
+                id="register_icon"/>Register</a>
+          </li>
+          <li>
+            <a href='profile.html' id='profile'><img
+                src="Image/user.png"
+                alt=""
+                id="register_icon"/>Profile</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Support Button -->
+    <button type="submit" class="support-button" onclick="support()"><img src="Image/live_chat.png" alt=""></button>
+    <!-- Main -->
+    <main>
+      <div class="home-banner-container">
+        <section class="home-banner">
+          <div class="banner-text">
+            <h5>Affordable, Reliable, Convenient</h5>
+            <h1>Rent Your Perfect Car Now</h1>
+            <hr id="white-line" />
+            <p>
+                Whether it's a cross-country journey or a short drive across town,
+                 you may pick from a variety of vehicles that meet your needs. Our vehicles are affordable,
+                 well-maintained, and prepared for you to travel in comfort and pleasure.
+            </p>
+            <a class='button' href='rentals.html'>Browse Our Cars</a>
+          </div>
+        </section>
+      </div>
+
+      <div class="popular-cars-container">
+        <h2 class="popular-cars-title">Popular Cars</h2>
+        <hr class="black-line1" />
+        <div class="popular-cars">
+          <div class="car1">
+            <img src="Image/BMW750i.png" alt="bmw" />
+            <h4>BMW 640D</h4>
+            <hr />
+            <div class="spec">
+              <p class="detail-text1">
+                <img src="Image/user.png" /> 4
+              </p>
+              <p class="detail-text1">
+                <img src="Image/airCon.png" /> A/C
+              </p>
+              <p class="detail-text1">
+                <img src="Image/carGearEngine.png" /> auto
+              </p>
+              <p class="price-text">$ 100 <span>/day</span></p>
+            </div>
+            <a href='details.html'>Rent Now</a>
+        </div>
+      <section class="promotions" id="promotions">
+        <h2>Current Promotions & Special Deals</h2>
+        <div class="deals">
+          <div class="deal">
+            <img src="Image/promo.png" alt="toyota" />
+            <h3>Weekend Special</h3>
+            <p>
+              Book a car for the weekend and save 10%! Perfect for a quick.
+              Available Fridays through Sundays.
+            </p>
+            <a href="#" class="button">Book Now</a>
+          </div>
+          <div class="deal">
+            <img src="Image/promo.png" alt="toyota" />
+            <h3>New Member discount</h3>
+            <p>
+              Sign Up and Get a new member discount. 
+              Only for the frist time rental.
+            </p>
+            <a href="#" class="button">Reserve Your Ride</a>
+          </div>
+          <div class="deal">
+            <img src="Image/promo.png" alt="toyota" />
+            <h3>Loyalty Rewards</h3>
+            <p>
+              Returning customers get 10% off their next rental. We appreciate
+              your loyalty and look forward to serving you again!
+            </p>
+            <a href="#" class="button">Learn More</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href='about.html'>About Us</a></li>
+            <li><a href='rentals.html'>Cars</a></li>
+            <li><a href='faq.html'>FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="contact-info">
+            <li>Phone Number: +65-8966871</li>
+            <li>Email: azoom@gmail.com</li>
+            <li>Location: Alexandra Road</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose of news, updates,
+            helpful tips, and exclusive offers.
+          </p>
+          <form id="subscribe-form">
+            <input type="text" name="subscribeEmail" placeholder="Your email" required />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <img src="Image/telegram.png" alt="" />
+            <img src="Image/facebook.png" alt="" />
+            <img src="Image/instagram.png" alt="" />
+            <img src="Image/google.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Of Footer -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

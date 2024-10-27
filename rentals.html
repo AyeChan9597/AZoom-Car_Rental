@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AZoom Car Rental</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="title">
+        <a href='index.html'>AZoom Car Rental</a>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href='index.html'>Home</a></li>
+          <li><a href='rentals.html'>Rentals</a></li>
+          <li><a href='about.html'>About Us</a></li>
+          <li><a href='faq.html'>FAQ</a></li>
+        </ul>
+      </nav>
+      <div id="account">
+        <ul>
+          <li>
+            <a href='login.html' id='login'><img
+                src="Image/login.png"
+                alt=""
+                id="login_icon"/>Login</a>
+          </li>
+          <li>
+            <a href='register.html' id='register'><img
+                src="Image/register.png"
+                alt=""
+                id="register_icon"/>Register</a>
+          </li>
+          <li>
+            <a href='profile.html' id='profile'><img
+                src="Image/user.png"
+                alt=""
+                id="register_icon"/>Profile</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Support Button -->
+    <button type="submit" class="support-button" onclick="support()"><img src="Image/live_chat.png" alt=""></button>
+    <!-- Main -->
+    <main>
+      <h1 id="rental-title">Rantal Cars</h1>
+      <hr class="black-line" />
+      <div class="cars-container" id="cars-container">
+        <div class="car">
+            <div class="details">
+                <img src="Image/BMW750i.png" alt="BMW 7series (750i)" id="details-car-img">
+                <h4>BMW 7series (750i)</h4>
+                <hr>
+                <div class="spec1">
+                    <p class="detail-text2">
+                        <img src="Image/user.png">
+                         10
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/airCon.png">
+                         A/C
+                    </p>
+                    <p class="detail-text1">
+                        <img src="Image/carEngine.png">
+                         2020
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/carGearEngine.png">
+                         auto
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/location.png">
+                         88 Alexandra Road
+                    </p>
+                </div>
+                <p class="price-text">
+                     $ 500
+                    <span>/day</span>
+                </p>
+                <a href="details.html?id=1" class="rent-btn">Rent Now</a>
+            </div>
+        </div>
+        <div class="car">
+            <div class="details">
+                <img src="Image/lamborghiniHuracanSpyder.png" alt="Lamborghini Huracan Spyder" id="details-car-img">
+                <h4>Lamborghini Huracan Spyder</h4>
+                <hr>
+                <div class="spec1">
+                    <p class="detail-text2">
+                        <img src="Image/user.png">
+                         6
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/airCon.png">
+                         A/C
+                    </p>
+                    <p class="detail-text1">
+                        <img src="Image/carEngine.png">
+                         2017
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/carGearEngine.png">
+                         auto
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/location.png">
+                         88 Alexandra Road
+                    </p>
+                </div>
+                <p class="price-text">
+                     $ 4000
+                    <span>/day</span>
+                </p>
+                <a href="details.html?id=2" class="rent-btn">Rent Now</a>
+            </div>
+        </div>
+        <div class="car">
+            <div class="details">
+                <img src="Image/lexusRX350.png" alt="Lexus RX350" id="details-car-img">
+                <h4>Lexus RX350</h4>
+                <hr>
+                <div class="spec1">
+                    <p class="detail-text2">
+                        <img src="Image/user.png">
+                         4
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/airCon.png">
+                         A/C
+                    </p>
+                    <p class="detail-text1">
+                        <img src="Image/carEngine.png">
+                         2020
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/carGearEngine.png">
+                         auto
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/location.png">
+                         129 Alexandra Road
+                    </p>
+                </div>
+                <p class="price-text">
+                     $ 800
+                    <span>/day</span>
+                </p>
+                <a href="details.html?id=3" class="rent-btn">Rent Now</a>
+            </div>
+        </div>
+        <div class="car">
+            <div class="details">
+                <img src="Image/mercedesBenzE300.png" alt="Mercedes Benz E300" id="details-car-img">
+                <h4>Mercedes Benz E300</h4>
+                <hr>
+                <div class="spec1">
+                    <p class="detail-text2">
+                        <img src="Image/user.png">
+                         9
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/airCon.png">
+                         A/C
+                    </p>
+                    <p class="detail-text1">
+                        <img src="Image/carEngine.png">
+                         2018
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/carGearEngine.png">
+                         auto
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/location.png">
+                         129 Alexandra Road
+                    </p>
+                </div>
+                <p class="price-text">
+                     $ 400
+                    <span>/day</span>
+                </p>
+                <a href="details.html?id=4" class="rent-btn">Rent Now</a>
+            </div>
+        </div>
+        <div class="car">
+            <div class="details">
+                <img src="Image/rangeRoverVelarP380.png" alt="Range Rover Velar P380" id="details-car-img">
+                <h4>Range Rover Velar P380</h4>
+                <hr>
+                <div class="spec1">
+                    <p class="detail-text2">
+                        <img src="Image/user.png">
+                         8
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/airCon.png">
+                         A/C
+                    </p>
+                    <p class="detail-text1">
+                        <img src="Image/carEngine.png">
+                         2019
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/carGearEngine.png">
+                         auto
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/location.png">
+                         88 Alexandra Road
+                    </p>
+                </div>
+                <p class="price-text">
+                     $ 1000
+                    <span>/day</span>
+                </p>
+                <a href="details.html?id=5" class="rent-btn">Rent Now</a>
+            </div>
+        </div>
+        <div class="car">
+            <div class="details">
+                <img src="Image/toyotaAlphard.png" alt="Toyota Alphard" id="details-car-img">
+                <h4>Toyota Alphard</h4>
+                <hr>
+                <div class="spec1">
+                    <p class="detail-text2">
+                        <img src="Image/user.png">
+                         6
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/airCon.png">
+                         A/C
+                    </p>
+                    <p class="detail-text1">
+                        <img src="Image/carEngine.png">
+                         2021
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/carGearEngine.png">
+                         auto
+                    </p>
+                    <p class="detail-text2">
+                        <img src="Image/location.png">
+                         129 Alexandra Road
+                    </p>
+                </div>
+                <p class="price-text">
+                     $ 1200
+                    <span>/day</span>
+                </p>
+                <a href="details.html?id=6" class="rent-btn">Rent Now</a>
+            </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href='about.html'>About Us</a></li>
+            <li><a href='rentals.html'>Cars</a></li>
+            <li><a href='faq.html'>FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="contact-info">
+            <li>Phone Number: +65-8966871</li>
+            <li>Email: azoom@gmail.com</li>
+            <li>Location: Alexandra Road</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose of news, updates,
+            helpful tips, and exclusive offers.
+          </p>
+          <form id="subscribe-form">
+            <input type="text" name="subscribeEmail" placeholder="Your email" required />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <img src="Image/telegram.png" alt="" />
+            <img src="Image/facebook.png" alt="" />
+            <img src="Image/instagram.png" alt="" />
+            <img src="Image/google.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Of Footer -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
